@@ -1,0 +1,48 @@
+/* Mobile Responsive */
+
+@media screen and (max-width: 799px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container__header h1 {
+    width: auto;
+    text-align: center;
+  }
+
+  .container__header .discription {
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+  }
+
+  .rating {
+    width: 90%;
+  }
+
+  .container__rating {
+    text-align: center;
+  }
+
+  .container__rating span {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .testimonials {
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .testimonial__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reviews,
+  .report_guru,
+  .besttech {
+    left: 0;
+  }
+}

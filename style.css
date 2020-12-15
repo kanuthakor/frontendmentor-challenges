@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: 0 10%;
+  margin-top: 100px;
+}
+
+/* container header and rating */
+
+.container__header h1 {
+  font-size: 3.5rem;
+  color: purple;
+  width: 500px;
+  display: block;
+}
+
+.container__header .discription {
+  margin-top: 15px;
+  width: 600px;
+  font-size: 1.2rem;
+  color: purple;
+  line-height: 1.5;
+}
+
+/* rating  */
+
+.rating {
+  background-color: rgba(80, 00, 80, 0.06);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  color: purple;
+}
+
+.rating span {
+  padding: 0 25px;
+  font-weight: bold;
+}
+
+.reviews {
+  left: 0;
+}
+
+.report_guru {
+  left: 10%;
+}
+
+.besttech {
+  left: 20%;
+}
+
+/* Testimonials section  */
+
+.testimonial__container {
+  display: flex;
+  align-items: center;
+  margin: 30px 10%;
+}
+
+.testimonials {
+  color: rgba(256, 256, 256, 0.78);
+  width: 300px;
+  background-color: rgb(73, 1, 73);
+  padding: 30px;
+  margin: 20px 20px 20px 0;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.t2 {
+  top: 15px;
+}
+
+.t3 {
+  top: 30px;
+}
+
+.testimonials img {
+  border-radius: 500px;
+  width: 50px;
+  margin: 0 20px 10px 0;
+}
+
+.profile {
+  display: flex;
+}
+
+.verified {
+  color: purple;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
